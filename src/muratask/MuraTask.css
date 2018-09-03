@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 26, 2018, 11:52:27 PM
+    Author     : osakana
+*/
+
+.label:hover{
+    -fx-background-color: azure;
+    -fx-cursor: hand;
+}
+
+.label:selected
+{
+    -fx-background-color: blue;
+}
+
+.list-cell{
+    -fx-font-family: "Hiragino Sans", sans-serif;
+    -fx-font-size: 14;
+}
+
+.label
+{
+    -fx-background-color: white;
+    -fx-font-family: "Hiragino Sans", sans-serif;
+    -fx-font-size: 14;
+    -fx-label-padding: 5 30 5 20;
+}
+
+.text-field
+{
+    -fx-font-family: "Hiragino Sans", sans-serif;
+}
+
+.scroll-pane
+{
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+#pane
+{
+    -fx-background-color: white;
+}
+
+#delete-button
+{
+    -fx-text-fill: red;
+}

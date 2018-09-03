@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MuraTask.jnlp">
+  <information>
+    <title>MuraTask</title>
+    <vendor>osakana</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MuraTask.jar" size="12738" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.21.0.jar" size="6672489" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MuraTask" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="muratask.MuraTask"  name="MuraTask" />
+  <update check="always"/>
+</jnlp>
