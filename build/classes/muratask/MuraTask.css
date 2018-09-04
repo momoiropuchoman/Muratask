@@ -36,6 +36,11 @@ and open the template in the editor.
     -fx-font-family: "Hiragino Sans", sans-serif;
 }
 
+.text-area
+{
+    -fx-font-family: "Hiragino Sans", sans-serif;
+}
+
 .scroll-pane
 {
     -fx-faint-focus-color: transparent;
@@ -45,6 +50,11 @@ and open the template in the editor.
 #pane
 {
     -fx-background-color: white;
+}
+
+#pane2
+{
+    -fx-background-color: yellow;
 }
 
 #delete-button

@@ -15,5 +15,6 @@ public interface Common {
     public static final int TASK_OVERVIEW_AREA_X = 400;
     public static final int TASK_INPUT_AREA_Y = 80;
     public static final int TASK_LIST_AREA_Y = WINDOW_Y - TASK_INPUT_AREA_Y;
+    public static final int TASK_DETAIL_AREA_X = WINDOW_X - TASK_OVERVIEW_AREA_X;
     //public static final int 
 }
